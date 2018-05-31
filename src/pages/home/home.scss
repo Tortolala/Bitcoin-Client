@@ -1,16 +1,26 @@
 page-home {
 
+    .content {
+        background-color: color($colors, light);
+    }
+
     .card {
         border-radius: 15px;
         margin-top: 25px;
     }
 
     .card-header {
-        background-color: color($colors, light);
+        background-color: color($colors, primary);
+        color: white;
+        font-weight: bold;
     }
 
     .graph {
         height: 40%;
+    }
+
+    .card-content {
+        font-size: 15px;
     }
 
 }
