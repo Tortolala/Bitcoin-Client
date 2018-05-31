@@ -25686,3 +25686,7 @@ page-home .card {
 page-home .card-header {
   background-color: #f4f4f4;
 }
+
+page-home .graph {
+  height: 40%;
+}
